@@ -5,3 +5,12 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return array;
 }
+
+function johnLennonFacts(array){
+  var newArray = [];
+  while(array.length > 0) {
+    newArray.push("array[i] + '!!!'");
+    array.slice(array.length - 1);
+  }
+  return newArray;
+}
